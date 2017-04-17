@@ -1,6 +1,6 @@
 {
   "name": "vue-pause",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A vue plugin. It's helpful if you need do something when your page hidding to background.",
   "main": "./dist/vue-pause.js",
   "scripts": {
