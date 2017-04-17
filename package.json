@@ -1,0 +1,54 @@
+{
+  "name": "vue-pause",
+  "version": "1.0.0",
+  "description": "A vue plugin. It's helpful if you need do something when your page hidding to background.",
+  "main": "./dist/vue-pause.js",
+  "scripts": {
+    "build": "webpack",
+    "prepublish": "npm run build",
+    "test": "mocha --require babel-register",
+    "coverage": "istanbul cover _mocha --report lcov -- --require babel-register -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhouhua-js/vue-pause.git"
+  },
+  "keywords": [
+    "vue",
+    "visibility",
+    "pause"
+  ],
+  "author": "zhouhua",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zhouhua-js/vue-pause/issues"
+  },
+  "homepage": "https://github.com/zhouhua-js/vue-pause#readme",
+  "tonicExampleFilename": "example.js",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1",
+    "babel-eslint": "^7.2.2",
+    "babel-loader": "^6.4.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-register": "^6.24.1",
+    "chai": "^3.5.0",
+    "coveralls": "^2.13.0",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb-base": "^11.1.3",
+    "eslint-friendly-formatter": "^2.0.7",
+    "eslint-import-resolver-webpack": "^0.8.1",
+    "eslint-loader": "^1.7.1",
+    "eslint-plugin-html": "^2.0.1",
+    "eslint-plugin-import": "^2.2.0",
+    "istanbul": "^1.1.0-alpha.1",
+    "mocha": "^3.2.0",
+    "mocha-lcov-reporter": "^1.3.0",
+    "webpack": "^2.4.1"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "visibilityjs": "^1.2.4"
+  }
+}
